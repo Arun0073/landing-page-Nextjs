@@ -1,5 +1,5 @@
 import React from "react";
-import team from '@/Assets/team.png'
+import team from '@/src/Assets/team.png'
 import Image from "next/image";
 
 const Team = () => {

@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import logo from "@/Assets/logo-bg-2 1.png";
-import phone from "@/Assets/smartphone_outline_24.png";
-import mail from "@/Assets/mail_outline_24.png";
+import logo from "@/src/Assets/logo-bg-2 1.png";
+import phone from "@/src/Assets/smartphone_outline_24.png";
+import mail from "@/src/Assets/mail_outline_24.png";
 import Link from "next/link";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";

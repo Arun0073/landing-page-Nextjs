@@ -1,9 +1,9 @@
 import React from "react";
-import place from "@/Assets/place.png";
-import work from "@/Assets/work.png";
+import place from "@/src/Assets/place.png";
+import work from "@/src/Assets/work.png";
 import Image from "next/image";
-import Download from "@/Assets/Download.png";
-import Product from "@/Assets/products.png";
+import Download from "@/src/Assets/Download.png";
+import Product from "@/src/Assets/products.png";
 const Article = () => {
   return (
     <article className="bg-custom-white pt-24 pl-20 flex flex-col">

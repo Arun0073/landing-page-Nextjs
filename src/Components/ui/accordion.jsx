@@ -2,11 +2,11 @@
 
 import * as React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
-import plus from "@/Assets/open.png";
-import minus from "@/Assets/close.png";
+import plus from "@/src/Assets/open.png";
+import minus from "@/src/Assets/close.png";
 import Image from "next/image";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/src/lib/utils";
 
 const Accordion = AccordionPrimitive.Root;
 

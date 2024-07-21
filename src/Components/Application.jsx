@@ -1,11 +1,11 @@
 import React from "react";
-import Img1 from "@/Assets/1.png";
-import Img2 from "@/Assets/2.png";
-import Img3 from "@/Assets/3.png";
-import Img4 from "@/Assets/4.png";
-import Img5 from "@/Assets/5.png";
-import Img6 from "@/Assets/6.png";
-import phone from "@/Assets/mobile.png";
+import Img1 from "@/src/Assets/1.png";
+import Img2 from "@/src/Assets/2.png";
+import Img3 from "@/src/Assets/3.png";
+import Img4 from "@/src/Assets/4.png";
+import Img5 from "@/src/Assets/5.png";
+import Img6 from "@/src/Assets/6.png";
+import phone from "@/src/Assets/mobile.png";
 import Image from "next/image";
 
 const Application = () => {

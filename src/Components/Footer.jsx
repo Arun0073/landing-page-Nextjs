@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "@/Assets/Logo.png";
+import logo from "@/src/Assets/Logo.png";
 import Image from "next/image";
-import contact from "@/Assets/smartphone.png";
-import mail from "@/Assets/mail.png";
-import place from "@/Assets/place1.png";
-import document1 from "@/Assets/document.png";
+import contact from "@/src/Assets/smartphone.png";
+import mail from "@/src/Assets/mail.png";
+import place from "@/src/Assets/place1.png";
+import document1 from "@/src/Assets/document.png";
 const Footer = () => {
   return (
     <footer className="pt-8 bg-custom-black ml-8 mr-8 lg:ml-20 lg:mr-20 rounded-lg flex flex-col justify-center items-center" id="contacts">
