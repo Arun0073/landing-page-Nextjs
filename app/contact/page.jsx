@@ -18,7 +18,7 @@ const page = () => {
       <ToastContainer />
       <h1 className="mt-20 text-3xl font-bold">Contact Us</h1>
       <section className="formcarry-container">
-        <form onSubmit={handleSubmit} method="POST">
+        <form onSubmit={handleSubmit} method="POST" name="contact">
           <div className="formcarry-block">
             <label>Full Name</label>
             <input type="text" name="name" placeholder="Your full name" />

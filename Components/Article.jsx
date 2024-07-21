@@ -31,9 +31,9 @@ const Article = () => {
           </p>
         </div>
       </div>
-      <div className="pt-16 ml-[-8px] flex flex-row">
-        <div className="flex flex-col basis-1/2">
-          <h2 className="text-4xl font-bold">Project 1</h2>
+      <div className="pt-16 ml-[-6px] flex flex-row">
+        <div className="flex flex-col basis-1/2 lg:ml-0 ml-12">
+          <h2 className="text-4xl font-bold lg:text-left text-center">Project 1</h2>
           <p className="pt-7 ml-[-2px] text-sm lg:text-left text-center">
             Crafted an innovative rental property management app, seamlessly
             integrating secure <br /> login, absence registration, and a tenant
@@ -48,16 +48,16 @@ const Article = () => {
           </p>
           <div className="flex flex-row ml-[-10px] mt-8">
             <Image src={place} alt=" Map Pin Image" width={24} height={24} />
-            <p className="pl-2 text-sm lg:pt-0.9 pt-2">India</p>
+            <p className="pl-2 text-sm lg:pt-0.5 pt-2">India</p>
             <Image className="ml-8" src={work} alt="Bag Image" width={20} height={20} />
-            <p className="pl-2 text-sm pt-0.75">Real Estate</p>
+            <p className="pl-2 text-sm pt-0.5">Real Estate</p>
           </div>
-          <div className="flex lg:flex-row flex-col pt-8 ml-[-10px]">
+          <div className="flex lg:flex-row flex-col pt-8 ml-[-10px] ">
             <div className="flex flex-col lg:text-left text-center">
               <h3 className="font-bold lg:text-2xl text-xl pl-4 lg:pl-0">400%</h3>
               <p className="text-custom-grey text-sm">User Growth</p>
             </div>
-            <div className="flex flex-col lg:text-left text-center">
+            <div className="flex flex-col lg:text-left text-center lg:pl-12">
               <h3 className="font-bold lg:text-2xl text-xl">+200 000</h3>
               <p className="text-custom-grey text-sm">Active Users</p>
             </div>

@@ -24,15 +24,15 @@ const Header = () => {
     <header className="flex flex-col lg:flex-row justify-between bg-custom-white">
       <div className="lg:ml-20 lg:pt-40 pt-40 flex flex-col ">
         <p className=" text-2xl lg:text-4xl lg:text-left text-center">
-          <span className="text-custom-yellow font-bold ">
+          <span className="text-custom-yellow font-extrabold ">
             User-Centric Excellence:
           </span>{" "}
-          <span className="font-semibold">Our</span> <br />{" "}
-          <span className="font-semibold">App Development services </span>
+          <span className="font-bold">Our</span> <br />{" "}
+          <span className="font-bold">App Development services </span>
           <br />
-          <span className="font-medium">Tackles Your Pain Points</span>
+          <span className="font-bold">Tackles Your Pain Points</span>
         </p>
-        <p className="mt-5 lg:text-md text-sm lg:text-left text-center pl-8 pr-8 lg:pl-0 lg:pr-0">
+        <p className="mt-5 lg:text-lg text-sm lg:text-left text-center pl-8 pr-8 lg:pl-0 lg:pr-0">
           Experience a Seamless Digital Journey with{" "}
           <span className="text-custom-green font-bold">Desun</span> - Where
           Every Line <br />
@@ -48,7 +48,7 @@ const Header = () => {
             Leave your contacts and we will call you back <br />
             within 30 minutes
           </h2>
-          <form className="pl-5 mt-6 mb-6 flex flex-col lg:flex-row justify-between ">
+          <form name="contact-form" className="pl-5 mt-6 mb-6 flex flex-col lg:flex-row justify-between ">
             <div className="flex flex-col">
               <p className="text-custom-gray px-10 lg:px-0">Full name</p>
               <div className="px-10 lg:px-0">

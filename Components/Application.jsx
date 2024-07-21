@@ -14,17 +14,17 @@ const Application = () => {
       <h2 className="text-2xl lg:text-4xl font-bold pl-5">Application Development Stages</h2>
       <div className="flex flex-row pt-5">
         <div className="flex flex-col justify-between basis-1/3">
-          <Image src={Img1} alt="Analysis Card" />
-          <Image src={Img2} alt="Design Card" />
-          <Image src={Img3} alt="Development Card" />
+          <Image draggable={false} src={Img1} alt="Analysis Card" />
+          <Image draggable={false} src={Img2} alt="Design Card" />
+          <Image draggable={false} src={Img3} alt="Development Card" />
         </div>
         <div className="flex flex-col justify-between basis-1/3">
-          <Image src={phone} alt="Mobile phone with Companies App Image" />
+          <Image draggable={false} src={phone} alt="Mobile phone with Companies App Image" />
         </div>
         <div className="flex flex-col justify-between basis-1/3">
-          <Image src={Img4} alt="Testing Card" />
-          <Image src={Img5} alt="Launching Card" />
-          <Image src={Img6} alt="Support Card" />
+          <Image draggable={false} src={Img4} alt="Testing Card" />
+          <Image draggable={false} src={Img5} alt="Launching Card" />
+          <Image draggable={false} src={Img6} alt="Support Card" />
         </div>
       </div>
     </div>

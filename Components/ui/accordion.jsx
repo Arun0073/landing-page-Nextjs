@@ -2,8 +2,8 @@
 
 import * as React from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
-import open from "@/Assets/open.png";
-import close from "@/Assets/close.png";
+import plus from "@/Assets/open.png";
+import minus from "@/Assets/close.png";
 import Image from "next/image";
 
 import { cn } from "@/lib/utils";
@@ -29,12 +29,11 @@ const AccordionTrigger = React.forwardRef(
           className
         )}
         {...props}
-       
       >
         {children}
         <div className="h-10 w-10 lg:ml-52 ml-0 shrink-0 transition-transform duration-200">
           <Image
-            src={props["data-state"] === "open" ? close : open}
+            src={props["data-state"] === "open" ? minus : plus}
             alt={props["data-state"] === "open" ? "Close" : "Open"}
             className="h-full w-full object-cover"
           />

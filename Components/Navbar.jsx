@@ -24,7 +24,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div
-        className="ml-44 mt-7 md:hidden"
+        className="ml-40 mt-7 md:hidden"
         onClick={() => setMenuOpened(!menuOpened)}
       >
         {menuOpened ? <FaTimes size={24} /> : <FaBars size={24} />}
@@ -32,9 +32,9 @@ const Navbar = () => {
       <div
         className={`${
           menuOpened ? "flex" : "hidden"
-        }  flex-col md:flex-row lg:pt-8 pt-16 text-custom-blue text-sm cursor-pointer ml-[-32px] lg:pl-24`}
+        }  flex-col lg:flex lg:flex-row lg:items-center lg:pt-8 pt-16 text-custom-blue text-sm cursor-pointer ml-[-12px] lg:pl-24`}
       >
-        <ul className="flex flex-col md:flex-row">
+        <ul className="flex flex-col lg:flex-row pb-6">
           <li className="mr-7 hover:border-b-2 hover:border-custom-yellow">
             <Link href="#services">Services</Link>
           </li>

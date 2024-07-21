@@ -29,7 +29,7 @@ const Discuss = () => {
           its cost and terms of its development
         </p>
       </div>
-      <form className="pl-5 mt-3 mb-10 flex lg:flex-row flex-col justify-between bg-white rounded-lg basis-1/2 ">
+      <form name="contact-form" className="pl-5 mt-3 mb-10 flex lg:flex-row flex-col justify-between bg-white rounded-lg basis-1/2 ">
         <div className="flex flex-col pt-4 pb-4 basis-1/2 lg:mr-0 mr-8 ">
           <p className="text-custom-gray">Full name</p>
           <div className="px-0">
