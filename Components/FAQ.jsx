@@ -4,11 +4,11 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "@/Components/ui/accordion";
 
 const FAQ = () => {
   return (
-    <div className="pt-20 pl-14 pr-14 pb-20 bg-white" id="faq">
+    <div className="pt-20 pl-20 pr-20 pb-20 bg-white" id="faq">
     <div className="items-center flex flex-row justify-center lg:justify-start lg:items-start">
       <h1 className="text-4xl font-bold">FAQ'S</h1>
     </div>

@@ -21,7 +21,7 @@ const Project = () => {
   return (
     <>
 
-    <section className="pl-24 pr-14 flex flex-col pt-20 bg-custom-white" id="media">
+    <section className="pl-20 pr-14 flex flex-col pt-20 bg-custom-white" id="media">
       <h1 className="text-4xl font-bold lg:text-left text-center">
         Developed more than <span className="text-custom-green">100</span>{" "}
         <br /> projects in <span className="text-custom-green">15</span>{" "}

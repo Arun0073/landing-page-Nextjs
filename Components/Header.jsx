@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Mobile from "@/Assets/Group 1.png";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/Components/ui/button";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import Link from "next/link";

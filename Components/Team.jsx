@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <div className="bg-custom-white pl-14 pr-14 pt-20 pb-10 flex lg:flex-row flex-col">
+    <div className="bg-custom-white pl-20 pr-10 pt-20 pb-10 flex lg:flex-row flex-col">
       <div className="flex flex-col basis-1/2">
         <h1 className="font-bold text-4xl ml-20 lg:ml-0">Our team</h1>
         <p className="text-md pt-8 lg:text-left text-center">

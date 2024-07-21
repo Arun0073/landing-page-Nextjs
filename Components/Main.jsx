@@ -18,7 +18,7 @@ const Main = () => {
         <hr className="border-solid border-1 border-gray-300" />
       </div>
 
-      <div className="pt-7 flex lg:flex-row flex-col ml-28 pb-14">
+      <div className="pt-7 flex lg:flex-row flex-col ml-20 pb-14">
         <div className="flex flex-col lg:basis-1/3">
           <h2 className="text-3xl font-bold pt-2"> Full development cycle</h2>
           <p className="pt-5 font-semibold text-sm">

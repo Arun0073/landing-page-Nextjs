@@ -6,7 +6,7 @@ import Download from "@/Assets/Download.png";
 import Product from "@/Assets/products.png";
 const Article = () => {
   return (
-    <article className="bg-custom-white pt-24 pl-24 flex flex-col">
+    <article className="bg-custom-white pt-24 pl-20 flex flex-col">
       <div className="flex flex-col">
         <h1 className="text-4xl font-bold lg:text-left text-center">Projects We are Proud of</h1>
         <p className="pt-7 text-sm pr-6 lg:pr-0 lg:text-left text-center">

@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Button } from "@/components/ui/button";
+import  {Button}  from "@/Components/ui/button";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
@@ -18,7 +18,7 @@ const Discuss = () => {
     return phoneNumberPattern.test(phoneNumber);
   };
   return (
-    <div className="flex lg:flex-row flex-col pt-16 bg-gradient-to-r from-custom-yellow to-custom-green pl-14 pr-24">
+    <div className="flex lg:flex-row flex-col pt-16 bg-gradient-to-r from-custom-yellow to-custom-green pl-14 pr-20">
       <div className="flex flex-col basis-1/2 ml-8">
         <h2 className="text-white font-bold text-4xl">
           Let's Discuss <br /> Your project

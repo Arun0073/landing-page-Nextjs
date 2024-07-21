@@ -31,7 +31,7 @@ const AccordionTrigger = React.forwardRef(
         {...props}
       >
         {children}
-        <div className="h-10 w-10 lg:ml-52 ml-0 shrink-0 transition-transform duration-200">
+        <div className="h-10 w-10 lg:ml-44 ml-0 shrink-0 transition-transform duration-200">
           <Image
             src={props["data-state"] === "open" ? minus : plus}
             alt={props["data-state"] === "open" ? "Close" : "Open"}
