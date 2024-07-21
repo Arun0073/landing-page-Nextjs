@@ -11,7 +11,7 @@ import Image from "next/image";
 const Application = () => {
   return (
     <div className="bg-white pl-14 pr-14 pt-20 pb-14" id="cases">
-      <h2 className="text-4xl font-bold pl-5">Application Development Stages</h2>
+      <h2 className="text-2xl lg:text-4xl font-bold pl-5">Application Development Stages</h2>
       <div className="flex flex-row pt-5">
         <div className="flex flex-col justify-between basis-1/3">
           <Image src={Img1} alt="Analysis Card" />

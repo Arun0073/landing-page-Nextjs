@@ -9,8 +9,10 @@ import {
 const FAQ = () => {
   return (
     <div className="pt-20 pl-14 pr-14 pb-20 bg-white" id="faq">
+    <div className="items-center flex flex-row justify-center lg:justify-start lg:items-start">
       <h1 className="text-4xl font-bold">FAQ'S</h1>
-      <div className="flex flex-row justify-between pt-8">
+    </div>
+      <div className="flex lg:flex-row flex-col justify-between pt-8 lg:pr-0">
         <div className="flex flex-col">
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">

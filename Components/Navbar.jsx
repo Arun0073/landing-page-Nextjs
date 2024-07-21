@@ -10,7 +10,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   return (
-    <nav className=" fixed top-0 ml-20  pr-5 z-50 bg-custom-white mt-4  rounded-md flex flex-row shadow-md ">
+    <nav className=" fixed top-0 lg:ml-20  pr-5 z-50 bg-custom-white mt-4  rounded-md flex flex-row shadow-md ">
       <div
         className="ml-5"
         style={{ position: "relative", width: "144px", height: "80px" }}
@@ -24,7 +24,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div
-        className="ml-auto mr-4 md:hidden"
+        className="ml-44 mt-7 md:hidden"
         onClick={() => setMenuOpened(!menuOpened)}
       >
         {menuOpened ? <FaTimes size={24} /> : <FaBars size={24} />}
@@ -32,7 +32,7 @@ const Navbar = () => {
       <div
         className={`${
           menuOpened ? "flex" : "hidden"
-        } md:flex flex-col md:flex-row pt-7 text-custom-blue text-sm cursor-pointer pl-16`}
+        }  flex-col md:flex-row lg:pt-8 pt-16 text-custom-blue text-sm cursor-pointer ml-[-32px] lg:pl-24`}
       >
         <ul className="flex flex-col md:flex-row">
           <li className="mr-7 hover:border-b-2 hover:border-custom-yellow">
@@ -57,7 +57,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="pt-7" style={{ paddingLeft: "20rem" }}>
-        <div className=" flex flex-row justify-between text-sm text-custom-green ">
+        <div className="hidden lg:flex flex-row justify-between text-sm text-custom-green ">
           <Image
             className="mr-2"
             src={phone}

@@ -18,19 +18,19 @@ const Discuss = () => {
     return phoneNumberPattern.test(phoneNumber);
   };
   return (
-    <div className="flex flex-row pt-16 bg-gradient-to-r from-custom-yellow to-custom-green pl-14 pr-24">
-      <div className="flex flex-col basis-1/2">
+    <div className="flex lg:flex-row flex-col pt-16 bg-gradient-to-r from-custom-yellow to-custom-green pl-14 pr-24">
+      <div className="flex flex-col basis-1/2 ml-8">
         <h2 className="text-white font-bold text-4xl">
           Let's Discuss <br /> Your project
         </h2>
-        <p className="pt-6 text-white font-sm">
+        <p className="pt-6 text-white font-sm lg:text-left text-center">
           Let's figure out how to create an effective application,
           <br />
           its cost and terms of its development
         </p>
       </div>
-      <form className="pl-5 mt-3 mb-10 flex flex-row justify-between bg-white rounded-lg basis-1/2 ">
-        <div className="flex flex-col pt-4 pb-4 basis-1/2 ">
+      <form className="pl-5 mt-3 mb-10 flex lg:flex-row flex-col justify-between bg-white rounded-lg basis-1/2 ">
+        <div className="flex flex-col pt-4 pb-4 basis-1/2 lg:mr-0 mr-8 ">
           <p className="text-custom-gray">Full name</p>
           <div className="px-0">
             <input
@@ -48,9 +48,9 @@ const Discuss = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col ml-4 pt-4 pb-4 basis-1/2">
-          <p className="text-custom-gray px-10">Phone number</p>
-          <label className="px-10">
+        <div className="flex flex-col lg:ml-4 ml-0 pt-4 pb-4 basis-1/2 lg:mr-4 mr-8">
+          <p className="text-custom-gray lg:px-18 px-0">Phone number</p>
+          <label className="lg:px-18 px-0">
             <PhoneInput
               className="w-full mt-1 border-gray-800 focus:outline-none"
               country={"us"}
@@ -65,8 +65,8 @@ const Discuss = () => {
             />
           </label>
 
-          <p className="text-custom-gray mt-5 px-10">Business mail</p>
-          <div className="px-10">
+          <p className="text-custom-gray mt-5 lg:px-18 px-0">Business mail</p>
+          <div className="lg:px-18 px-0">
             <input
               className="w-full mt-1 border-b border-gray-800 focus:outline-none"
               type="text"
@@ -74,7 +74,7 @@ const Discuss = () => {
             />
           </div>
         <div className="pt-5 ">
-          <Button className="bg-custom-yellow rounded-lg text-custom-white translate-x-28 ">
+          <Button className="bg-custom-yellow rounded-lg text-custom-white ml-6 lg:ml-0 lg:translate-x-28 ">
             Discuss the Project
           </Button>
         </div>

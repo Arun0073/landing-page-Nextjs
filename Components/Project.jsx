@@ -22,13 +22,13 @@ const Project = () => {
     <>
 
     <section className="pl-24 pr-14 flex flex-col pt-20 bg-custom-white" id="media">
-      <h1 className="text-4xl font-bold">
+      <h1 className="text-4xl font-bold lg:text-left text-center">
         Developed more than <span className="text-custom-green">100</span>{" "}
         <br /> projects in <span className="text-custom-green">15</span>{" "}
         industries
       </h1>
-      <div className="flex flex-row mt-12">
-        <div className="flex flex-col basis-1/3 justify-between ml-[-10px]" >
+      <div className="flex lg:flex-row flex-col mt-12">
+        <div className="flex flex-col  basis-1/3 justify-between lg:ml-[-10px]" >
           <div className="flex flex-row ">
             <Image src={logo} alt="Social Media Image" height={54} width={54} />
             <p className="pt-3 ml-3">Social Media</p>

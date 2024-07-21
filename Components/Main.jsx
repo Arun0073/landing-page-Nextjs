@@ -4,10 +4,10 @@ import logo from "@/Assets/image 11.png";
 
 const Main = () => {
   return (
-    <main className="bg-white" id="services">
+    <main className="bg-white lg:text-left text-center" id="services">
       <div className="pt-14 pl-14 pr-14">
         <hr className="border-solid border-1 border-gray-300" />
-        <div className="pt-10 pb-10 flex flex-row justify-between">
+        <div className=" hidden pt-10 pb-10 md:flex flex-row justify-between">
           <Image src={logo} alt="Planet Written Logo" width={163} height={72} />
           <Image src={logo} alt="Planet Written Logo" width={163} height={72} />
           <Image src={logo} alt="Planet Written Logo" width={163} height={72} />
@@ -18,8 +18,8 @@ const Main = () => {
         <hr className="border-solid border-1 border-gray-300" />
       </div>
 
-      <div className="pt-7 flex flex-row ml-28 pb-14">
-        <div className="flex flex-col basis-1/3">
+      <div className="pt-7 flex lg:flex-row flex-col ml-28 pb-14">
+        <div className="flex flex-col lg:basis-1/3">
           <h2 className="text-3xl font-bold pt-2"> Full development cycle</h2>
           <p className="pt-5 font-semibold text-sm">
             We use Proven Technologies
@@ -53,41 +53,56 @@ const Main = () => {
             <span className="text-custom-green">/</span> Navigation
           </p>
         </div>
-        <div className="flex flex-col basis-1/3 justify-between mt-4 pl-60 pr-0">
-          <div className="flex flex-row ">
+        <div className="flex flex-col lg:basis-1/3 justify-between lg:mt-4 mt-12 lg:pl-60 ">
+          <div className="flex flex-row  ">
             {" "}
-            <p className="hover:border-b hover:border-custom-green cursor-pointer">iOS development</p>{" "}
+            <p className="hover:border-b hover:border-custom-green cursor-pointer ">
+              iOS development
+            </p>{" "}
             <span className="ml-3 text-custom-green font-medium">&#62;</span>
           </div>
 
-          <div className="flex flex-row ">
+          <div className="flex flex-row pt-2 lg:pt-0 ">
             {" "}
-            <p className="hover:border-b hover:border-custom-green cursor-pointer">Android development</p>{" "}
+            <p className="hover:border-b hover:border-custom-green cursor-pointer">
+              Android development
+            </p>{" "}
             <span className="ml-3 text-custom-green font-medium">&#62;</span>
           </div>
-          <div className="flex flex-row ">
+          <div className="flex flex-row pt-2 lg:pt-0 ">
             {" "}
-            <p className="hover:border-b hover:border-custom-green cursor-pointer">Web development</p>{" "}
+            <p className="hover:border-b hover:border-custom-green cursor-pointer">
+              Web development
+            </p>{" "}
             <span className="ml-3 text-custom-green font-medium">&#62;</span>
           </div>
-          <div className="flex flex-row ">
+          <div className="flex flex-row pt-2 lg:pt-0  ">
             {" "}
-            <p className="hover:border-b hover:border-custom-green cursor-pointer"> UI/UX design</p>{" "}
+            <p className="hover:border-b hover:border-custom-green cursor-pointer">
+              {" "}
+              UI/UX design
+            </p>{" "}
             <span className="ml-3 text-custom-green font-medium">&#62;</span>
           </div>
-          <div className="flex flex-row ">
+          <div className="flex flex-row pt-2 lg:pt-0  ">
             {" "}
-            <p className="hover:border-b hover:border-custom-green cursor-pointer">Testing</p>{" "}
+            <p className="hover:border-b hover:border-custom-green cursor-pointer">
+              Testing
+            </p>{" "}
             <span className="ml-3 text-custom-green font-medium">&#62;</span>
           </div>
-          <div className="flex flex-row ">
+          <div className="flex flex-row pt-2 lg:pt-0  ">
             {" "}
-            <p className="hover:border-b hover:border-custom-green cursor-pointer">Launch</p>{" "}
+            <p className="hover:border-b hover:border-custom-green cursor-pointer">
+              Launch
+            </p>{" "}
             <span className="ml-3 text-custom-green font-medium">&#62;</span>
           </div>
-          <div className="flex flex-row ">
+          <div className="flex flex-row pt-2 lg:pt-0  ">
             {" "}
-            <p className="hover:border-b hover:border-custom-green cursor-pointer">IT consulting</p>{" "}
+            <p className="hover:border-b hover:border-custom-green cursor-pointer">
+              IT consulting
+            </p>{" "}
             <span className="ml-3 text-custom-green font-medium">&#62;</span>
           </div>
         </div>
