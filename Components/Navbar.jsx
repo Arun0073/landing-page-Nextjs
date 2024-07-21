@@ -10,7 +10,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   return (
-    <nav className=" fixed top-0 lg:ml-20  pr-5 z-50 bg-custom-white mt-4  rounded-md flex flex-row shadow-md ">
+    <nav className=" fixed top-0 lg:ml-20  pr-5 z-50 bg-white mt-4  rounded-md flex flex-row shadow-md ">
       <div
         className="ml-5"
         style={{ position: "relative", width: "144px", height: "80px" }}
@@ -32,7 +32,7 @@ const Navbar = () => {
       <div
         className={`${
           menuOpened ? "flex" : "hidden"
-        }  flex-col lg:flex lg:flex-row lg:items-center lg:pt-8 pt-16 text-custom-blue text-sm cursor-pointer ml-[-12px] lg:pl-24`}
+        }  flex-col lg:flex lg:flex-row lg:items-center lg:pt-6 pt-16 text-custom-blue text-sm cursor-pointer ml-[-12px] lg:pl-24`}
       >
         <ul className="flex flex-col lg:flex-row pb-6">
           <li className="mr-7 hover:border-b-2 hover:border-custom-yellow">
