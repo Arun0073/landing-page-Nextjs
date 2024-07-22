@@ -47,10 +47,10 @@ const Discuss = () => {
       </div>
       <form
         name="contact-form"
-        className="pl-5 mt-3 mb-10 ml-7 mr-4 lg:mr-0 lg:ml-0 flex lg:flex-row flex-col justify-between bg-white rounded-lg basis-1/2 items-center "
+        className="pl-5 mt-3 mb-10  flex lg:flex-row flex-col justify-between bg-white rounded-lg basis-1/2 items-center "
         onSubmit={handleSubmit}
       >
-        <div className="flex flex-col pt-4 lg:pb-16 basis-1/2 lg:mr-0 mr-8 ">
+        <div className="flex flex-col pt-4 lg:pb-16 basis-1/2 lg:mr-0 mr-5  ">
           <p className="text-custom-gray">Full name</p>
           <div className="px-0">
             <input
@@ -70,7 +70,7 @@ const Discuss = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col lg:ml-4 ml-1 pt-7 pb-4 basis-1/2 lg:mr-4 mr-8">
+        <div className="flex flex-col lg:ml-4 ml-5 pt-7 pb-4 basis-1/2 lg:mr-4 mr-6">
           <p className="text-custom-gray lg:px-18 px-0">Phone number</p>
           <label className="lg:px-18 px-0">
             <PhoneInput
@@ -87,7 +87,7 @@ const Discuss = () => {
             />
           </label>
 
-          <p className="text-custom-gray mt-5 lg:px-18 px-0">Business mail</p>
+          <p className="text-custom-gray mt-5 lg:px-18 px-1 ">Business mail</p>
           <div className="lg:px-18 px-0">
             <input
               className="w-full mt-1 border-b border-gray-800 focus:outline-none"
