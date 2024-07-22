@@ -53,7 +53,7 @@ const Main = () => {
             <span className="text-custom-green">/</span> Navigation
           </p>
         </div>
-        <div className="flex flex-col lg:basis-1/3 justify-between lg:mt-4 mt-12 pl-24 lg:pl-60 ">
+        <div className="flex flex-col lg:basis-1/3 justify-between lg:mt-4 mt-12 pl-20 lg:pl-60 ">
           <div className="flex flex-row  ">
             {" "}
             <p className="hover:border-b hover:border-custom-green cursor-pointer ">
