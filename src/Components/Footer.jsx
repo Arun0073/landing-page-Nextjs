@@ -7,9 +7,9 @@ import place from "@/src/Assets/place1.png";
 import document1 from "@/src/Assets/document.png";
 const Footer = () => {
   return (
-    <footer className="pt-8 bg-custom-black ml-8 mr-8 lg:ml-20 lg:mr-20 rounded-lg flex flex-col justify-center items-center" id="contacts">
+    <footer className="pt-8 bg-custom-black  lg:ml-20 lg:mr-20 lg:rounded-lg  flex flex-col justify-center items-center" id="contacts">
       <Image src={logo} width={300} height={300} alt="Company logo" />
-      <div className="flex lg:flex-row flex-col justify-between w-full pt-8 lg:pl-8 lg:pr-8 pl-24 ">
+      <div className="flex lg:flex-row flex-col justify-between w-full pt-8 lg:pl-8 lg:pr-8 pl-40 ">
         <div>
           <div className="flex flex-row ">
             <Image src={contact} alt="Mobile Iamge" width={24} height={24} />
