@@ -23,7 +23,6 @@ const page = () => {
         <meta property="og:title" content="Contact Us" />
         <meta property="og:description" content="How to get in touch with us" />
         <meta property="og:type" content="website" />
-        // Add any other meta tags you need
       </Head>
       <div className="flex flex-col justify-center items-center">
         <ToastContainer />
