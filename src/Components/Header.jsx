@@ -4,8 +4,10 @@ import Mobile from "@/src/Assets/Group 1.png";
 import Image from "next/image";
 import { Button } from "@/src/Components/ui/button";
 import PhoneInput from "react-phone-input-2";
-import 'react-phone-input-2/lib/style.css'
+import "react-phone-input-2/lib/style.css";
 import Link from "next/link";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Header = () => {
   const [number, setNumber] = useState("");
@@ -16,12 +18,23 @@ const Header = () => {
     setValid(validatePhoneNumber(value));
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    toast.success("Thanks for Contacting us!!", {
+      autoClose: 3000,
+      onClose: () => {
+        window.location.reload();
+      },
+    });
+  };
+
   const validatePhoneNumber = (phoneNumber) => {
     const phoneNumberPattern = /^\d{10}$/;
     return phoneNumberPattern.test(phoneNumber);
   };
   return (
     <header className="flex flex-col lg:flex-row justify-between bg-custom-white">
+      <ToastContainer />
       <div className="lg:ml-20 lg:pt-40 pt-40 flex flex-col ">
         <p className=" text-2xl lg:text-4xl lg:text-left text-center">
           <span className="text-custom-yellow font-extrabold ">
@@ -48,7 +61,11 @@ const Header = () => {
             Leave your contacts and we will call you back <br />
             within 30 minutes
           </h2>
-          <form name="contact-form" className="pl-5 mt-6 mb-6 flex flex-col lg:flex-row justify-between ">
+          <form
+            onSubmit={handleSubmit}
+            name="contact-form"
+            className="pl-5 mt-6 mb-6 flex flex-col lg:flex-row justify-between "
+          >
             <div className="flex flex-col">
               <p className="text-custom-gray px-10 lg:px-0">Full name</p>
               <div className="px-10 lg:px-0">
@@ -56,6 +73,7 @@ const Header = () => {
                   className="w-full mt-1 border-b border-gray-800 focus:outline-none"
                   type="text"
                   placeholder="Your Name"
+                  id="name"
                 />
               </div>
               <p className="text-custom-gray mt-5  px-10 lg:px-0">
@@ -66,6 +84,7 @@ const Header = () => {
                   className="w-full mt-1 border-b border-gray-800 focus:outline-none"
                   type="text"
                   placeholder="Business name"
+                  id="business-name"
                 />
               </div>
             </div>
@@ -94,6 +113,7 @@ const Header = () => {
                   className="w-full mt-1 border-b border-gray-800 focus:outline-none"
                   type="text"
                   placeholder=" Business Mail"
+                  id="business-mail"
                 />
               </div>
             </div>
