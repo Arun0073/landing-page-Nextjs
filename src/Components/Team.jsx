@@ -6,8 +6,8 @@ const Team = () => {
   return (
     <div className="bg-custom-white pl-20 pr-10 pt-20 pb-10 flex lg:flex-row flex-col">
       <div className="flex flex-col basis-1/2">
-        <h1 className="font-bold text-4xl ml-16 lg:ml-0">Our team</h1>
-        <p className="text-md pt-8 lg:text-left text-center pr-1 lg:pr-0">
+        <h1 className="font-bold text-4xl ml-12 lg:ml-0">Our team</h1>
+        <p className="text-md pt-8 lg:text-left text-center mr-4 lg:pr-0">
           Thousand is a full-cycle digital production company with its own
           product analytics, <br /> design, web and mobile development.
         </p>

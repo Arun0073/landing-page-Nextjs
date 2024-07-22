@@ -29,7 +29,7 @@ const Discuss = () => {
           its cost and terms of its development
         </p>
       </div>
-      <form name="contact-form" className="pl-5 mt-3 mb-10 ml-7 lg:ml-0 flex lg:flex-row flex-col justify-between bg-white rounded-lg basis-1/2 ">
+      <form name="contact-form" className="pl-5 mt-3 mb-10 ml-7 lg:ml-0 flex lg:flex-row flex-col justify-between bg-white rounded-lg basis-1/2 items-center ">
         <div className="flex flex-col pt-4 pb-4 basis-1/2 lg:mr-0 mr-8 ">
           <p className="text-custom-gray">Full name</p>
           <div className="px-0">
@@ -73,8 +73,8 @@ const Discuss = () => {
               placeholder=" Business Mail"
             />
           </div>
-        <div className="pt-5 pr-1 lg:pr-0 ">
-          <Button className="bg-custom-yellow rounded-lg text-custom-white ml-6 lg:ml-0 lg:translate-x-28 ">
+        <div className="pt-5 pr-2 lg:pr-0 ">
+          <Button className="bg-custom-yellow rounded-lg text-custom-white ml-5 lg:ml-0 lg:translate-x-28 ">
             Discuss the Project
           </Button>
         </div>
