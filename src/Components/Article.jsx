@@ -6,7 +6,7 @@ import Download from "@/src/Assets/Download.png";
 import Product from "@/src/Assets/products.png";
 const Article = () => {
   return (
-    <article className="bg-custom-white pt-24 pl-20 flex flex-col">
+    <article className="bg-custom-white pt-24 lg:pl-20 pl-10 pr-4 flex flex-col">
       <div className="flex flex-col">
         <h1 className="text-4xl font-bold lg:text-left text-center">Projects We are Proud of</h1>
         <p className="pt-7 text-sm pr-6 lg:pr-0 lg:text-left text-center">
@@ -31,7 +31,7 @@ const Article = () => {
           </p>
         </div>
       </div>
-      <div className="pt-16 ml-[-6px] flex flex-row">
+      <div className="pt-16 ml-[-6px] flex flex-row pl-8 lg:pl-0">
         <div className="flex flex-col basis-1/2 lg:ml-0 ml-12">
           <h2 className="text-4xl font-bold lg:text-left text-center">Project 1</h2>
           <p className="pt-7 ml-[-2px] text-sm lg:text-left text-center">
@@ -66,7 +66,7 @@ const Article = () => {
             <Image src={Download} alt="Google&App store Iamges" width={300} height={40} />
           </div>
         </div>
-        <div className="basis-1/3 lg:pb-6 pt-36 lg:pt-0">
+        <div className="basis-1/3 lg:pb-6 pt-36 lg:pt-0 pl-1 lg:pl-0">
           <Image
             src={Product}
             alt="Mobile View of Product"

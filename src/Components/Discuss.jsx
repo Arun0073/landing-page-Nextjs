@@ -20,7 +20,7 @@ const Discuss = () => {
   return (
     <div className="flex lg:flex-row flex-col pt-16 bg-gradient-to-r from-custom-yellow to-custom-green pl-14 pr-20">
       <div className="flex flex-col basis-1/2 ml-8">
-        <h2 className="text-white font-bold text-4xl">
+        <h2 className="text-white font-bold text-4xl ml-5 lg:ml-0">
           Let's Discuss <br /> Your project
         </h2>
         <p className="pt-6 text-white font-sm lg:text-left text-center">
@@ -29,7 +29,7 @@ const Discuss = () => {
           its cost and terms of its development
         </p>
       </div>
-      <form name="contact-form" className="pl-5 mt-3 mb-10 flex lg:flex-row flex-col justify-between bg-white rounded-lg basis-1/2 ">
+      <form name="contact-form" className="pl-6 mt-3 mb-10 ml-7 lg:ml-0 flex lg:flex-row flex-col justify-between bg-white rounded-lg basis-1/2 ">
         <div className="flex flex-col pt-4 pb-4 basis-1/2 lg:mr-0 mr-8 ">
           <p className="text-custom-gray">Full name</p>
           <div className="px-0">

@@ -18,7 +18,7 @@ const Main = () => {
         <hr className="border-solid border-1 border-gray-300" />
       </div>
 
-      <div className="pt-7 flex lg:flex-row flex-col ml-20 pb-14">
+      <div className="pt-7 flex lg:flex-row flex-col ml-14 pr-12 lg:ml-20 pb-14">
         <div className="flex flex-col lg:basis-1/3">
           <h2 className="text-3xl font-bold pt-2"> Full development cycle</h2>
           <p className="pt-5 font-semibold text-sm">
@@ -53,7 +53,7 @@ const Main = () => {
             <span className="text-custom-green">/</span> Navigation
           </p>
         </div>
-        <div className="flex flex-col lg:basis-1/3 justify-between lg:mt-4 mt-12 lg:pl-60 ">
+        <div className="flex flex-col lg:basis-1/3 justify-between lg:mt-4 mt-12 pl-24 lg:pl-60 ">
           <div className="flex flex-row  ">
             {" "}
             <p className="hover:border-b hover:border-custom-green cursor-pointer ">
